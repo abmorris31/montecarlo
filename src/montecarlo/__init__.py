@@ -5,3 +5,4 @@ import math
 import networkx as nx        
 from .BitString import *
 from .IsingHamiltonian import *
+from .MonteCarlo import *
