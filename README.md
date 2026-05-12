@@ -11,7 +11,7 @@ A package to perform Monte Carlo simulations.
 
 ## Features
 
-* TODO
+* Runs a monte carlo simulation using metropolis sampling to give accurate values of energy and magnetization when the number of an ising hamiltonian's configurations becomes too large for direct calculation. Assumes a boltzmann distribution.
 
 ## Documentation
 
