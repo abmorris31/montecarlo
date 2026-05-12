@@ -15,6 +15,8 @@ A package to perform Monte Carlo simulations.
 
 ## Documentation
 
+Refer to the docs folder for more information about installation and usage.
+
 Documentation is built with [Zensical](https://zensical.org/) and deployed to GitHub Pages.
 
 * **Live site:** https://abmorris31.github.io/montecarlo/
