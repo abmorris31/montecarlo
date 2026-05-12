@@ -14,7 +14,7 @@ class MonteCarlo:
         M_values = []
         bs = BitString(self.ham.G.number_of_nodes())
 
-        n = 1
+        n = 0
         while n < n_samples:
             for i in range(len(bs)):
                 E_a = IsingHamiltonian.energy(self.ham,bs)

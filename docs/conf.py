@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ShadowSimulation'
+project = 'MonteCarlo'
 copyright = '2026, Alex Morris'
 author = 'Alex Morris'
 release = '2026'
@@ -14,8 +14,13 @@ release = '2026'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ['myst_parser']
+source_suffix = {
+    ',rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
+master_doc = 'index'
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
